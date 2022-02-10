@@ -2,8 +2,8 @@
 
 return [
 
-    'projectId'     => '',
-    'projectKey'    => '',
+    'projectId'     => env('AIRBRAKE_ID', 'test'),
+    'projectKey'    => env('AIRBRAKE_PR_KEY', 'test'),
     'environment'   => env('APP_ENV', 'production'),
 
     //leave the following options empty to use defaults
