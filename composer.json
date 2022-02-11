@@ -1,14 +1,18 @@
 {
     "name": "vento/laravel-airbrake",
     "description": "Laravel service provider for Airbrake https://github.com/airbrake/phpbrake",
-    "keywords": ["airbrake", "laravel"],
+    "keywords": ["airbrake", "laravel","logging"],
     "require": {
-        "php": ">=7.2",
+        "php": "^7.2|^7.3|^8.0|^8.1",
         "airbrake/phpbrake": "^0.7.3",
         "illuminate/support": "^6.0|^7.0|^8.0|^9.0"
     },
     "license": "MIT",
     "authors": [
+        {
+            "name": "Nuruzzaman Milon",
+            "email": "contact@milon.im"
+        },
         {
             "name": "Vento",
             "email": "github@brenneisen.me"
@@ -24,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kouz\\LaravelAirbrake\\ServiceProvider"
+                "Vento\\LaravelAirbrake\\ServiceProvider"
             ]
         }
     }
