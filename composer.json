@@ -20,7 +20,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Kouz\\LaravelAirbrake\\": "src/"
+            "Vento\\LaravelAirbrake\\": "src/"
         }
     },
     "minimum-stability": "dev",

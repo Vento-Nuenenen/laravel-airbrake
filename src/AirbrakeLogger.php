@@ -1,6 +1,6 @@
 <?php
 
-namespace Kouz\LaravelAirbrake;
+namespace Vento\LaravelAirbrake;
 
 use Airbrake\MonologHandler;
 use Airbrake\Notifier;
